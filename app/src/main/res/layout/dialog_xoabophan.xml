@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#807777"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/background_button"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/delete"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xóa bộ phận này?"
+            android:layout_gravity="center"
+            android:textColor="#FF0202"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa bộ phận cùng toàn bộ nhân viên thuộc bộ phận này"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="@drawable/background_vien1"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            android:id="@+id/btnYes"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button"
+            android:textColor="@color/white"
+            android:text="Có"></android.widget.Button>
+
+        <android.widget.Button
+            android:id="@+id/btnNo"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/background_button"
+            android:text="Không"></android.widget.Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DongVanTuanDat.qlns">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.QLNhanSu"
+        android:supportsRtl="true">
+
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:name=".activity.ActivityDangnhap"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                  android:name=".activity.ActivityNhanvienmain" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".activity.ActivityThongtinnv" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".activity.ActivityThemnhanvien" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".activity.ActivityNhanvienbp" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".activity.ActivitySuabophan" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".activity.ActivityThembophan" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".activity.ActivityBophan" />
+        <activity
+            android:label="Thông tin liên hệ"
+            android:name=".activity.ActivityThongtinlienhe" />
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>
